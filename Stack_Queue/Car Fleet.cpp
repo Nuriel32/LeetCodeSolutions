@@ -2,7 +2,7 @@ using namespace std;
 #include<algorithm>
 #include <iostream>
 #include <stack>
-#include(vector);
+#include<vector>
 class Solution {
 struct Car {
     int position; 
