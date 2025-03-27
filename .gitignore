@@ -1,0 +1,15 @@
+echo "/*.exe
+/*.o
+/*.out
+/build
+/.vscode
+/.idea
+/node_modules
+.DS_Store
+*.log
+*.tmp
+*.lock
+*.json
+__pycache__/
+*.ipynb_checkpoints/
+" > .gitignore

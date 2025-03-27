@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../quiestionns"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"stack": "cpp"
+		}
+	}
+}
