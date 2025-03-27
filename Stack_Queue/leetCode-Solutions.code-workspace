@@ -9,7 +9,8 @@
 	],
 	"settings": {
 		"files.associations": {
-			"stack": "cpp"
+			"stack": "cpp",
+			"vector": "cpp"
 		}
 	}
 }
