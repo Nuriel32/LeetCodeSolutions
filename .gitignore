@@ -10,6 +10,7 @@ echo "/*.exe
 *.tmp
 *.lock
 *.json
+cp/
 __pycache__/
 *.ipynb_checkpoints/
 " > .gitignore
