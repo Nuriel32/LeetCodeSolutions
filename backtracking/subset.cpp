@@ -8,7 +8,6 @@ The solution set must not contain duplicate subsets. You may return the solution
 #include <vector>
 using namespace std;
 
-
 class Solution {
     public:
     
@@ -31,18 +30,16 @@ class Solution {
                     return;
                 }
             
-            for(i;i<=nums.size();i++)
-                {  
+           
                     subset.push_back(nums[i]);
-                    helper(nums, subset, solutions, i + 1);
+                    helper(nums, subset, solutions, (i + 1));
                     subset.pop_back();
-                }
-    
-        
-    
+                    helper(nums, subset, solutions, (i + 1));
+                    
         }
     };
     
+
 
 
     int main() {
