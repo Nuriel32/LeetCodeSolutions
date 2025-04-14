@@ -22,6 +22,8 @@ For above example, 5 is in second position (because A[2] = 5) and 2 is in fourth
 Write a function:*/
 
 #include <unordered_map>
+#include <vector>
+using namespace std;
  int solution(vector<int> &A) {
      if(A.size() == 0){return -1;}
     unordered_map<int, int> count;
