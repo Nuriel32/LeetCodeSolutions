@@ -16,7 +16,7 @@
  */
 #include <vector>
 #include <iostream>
-
+using namespace std;
 class Solution {
 public:
     int minCostClimbingStairs(vector<int>& cost) {
@@ -24,7 +24,7 @@ public:
         if(cost.size() <2) { return -1;}
 
 
-        vector<int> min(cost.size() +1);a
+        vector<int> min(cost.size() +1);
 
         for(int i = 2 ; i < min.size();i++)
         {
